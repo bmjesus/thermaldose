@@ -1,0 +1,25 @@
+Package: thermaldose
+Type: Package
+Title: Fits several functions from the paper Bechet et al. 2017
+Version: 0.1.0
+Authors@R: c(person("Jesus", "Bruno", , "bmjesus@univ-nantes.fr", c("aut", "cre")))
+Maintainer: Bruno Jesus <bruno.jesus@univ-nantes.fr>
+Description: Fits several functions from the paper Bechet et al. 2017.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 2.10)
+Imports:
+    minpack.lm
+Collate:
+    'model_thermal_dose.R'
+    'thermal_dose.R'
+    'estimate_aA.R'
+    'fit_half_life.R'
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
